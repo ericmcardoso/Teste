@@ -1,0 +1,34 @@
+.container{
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.um{
+	width: 50%;
+	height: 30vh;
+	background-color: red;
+}
+
+.dois{
+	width: 50%;
+	height: 30vh;
+	background-color: green;
+}
+
+.tres{
+	width: 100%;
+	height: 20vh;
+	background-color: blue;
+}
+
+@media (max-width: 760px){
+	.um, .dois{
+		width: 100%;
+	}
+
+	.tres{
+		display: none;
+	}
+}
